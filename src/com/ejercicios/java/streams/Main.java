@@ -27,7 +27,7 @@ public class Main {
 	}
 	
 	public static void dummyIncludesFunction() {
-		String expectedWord = "apis";
+		String expectedWord = "java";
 		List<String>  palabras = Arrays.asList("Java", "Lambdas",  "Stream", "API");
 		boolean result = palabras.stream()
 				.map(el -> el.toLowerCase())
